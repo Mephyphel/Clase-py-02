@@ -38,3 +38,7 @@ factura2.add("object")
 
 print(factura2)
 print(factura)
+
+hola = b"hola"
+print(type(hola))
+print(hola)
