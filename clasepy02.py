@@ -24,9 +24,17 @@ print("la suma es :", numero+numero)
 
 print("El reporte del formulario es  :", numero_direccion+piso_casa)
  """
-factura={"pan","huevos", 100, 1234}
+factura={"pan","huevos", 100, 1234, "mimundo", "ggg", 1223, "5425525"}
 print(factura)
 
 factura.add("hola")
 
+print(factura)
+#["pan", "huevos", 100, 1234, "mimundo", "ggg", 1223, "5425525", "revisando", 12324]
+
+factura2=factura.copy()
+
+factura2.add("object")
+
+print(factura2)
 print(factura)
