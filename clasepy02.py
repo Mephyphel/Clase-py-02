@@ -1,5 +1,5 @@
 
-print(type("1"))
+""" print(type("1"))
 print("1")
 
 print(type("hola mundo"))
@@ -23,5 +23,10 @@ print(texto)
 print("la suma es :", numero+numero)
 
 print("El reporte del formulario es  :", numero_direccion+piso_casa)
+ """
 factura={"pan","huevos", 100, 1234}
+print(factura)
+
+factura.add("hola")
+
 print(factura)
